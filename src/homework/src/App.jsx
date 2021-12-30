@@ -2,6 +2,9 @@ import logo from './logo.svg'
 import './App.css'
 import {useRef, useEffect} from 'react'
 import VanillaTilt from 'vanilla-tilt'
+import PokemonContainer from './PokemonContainer'
+import TicTacToe from './TicTacToe'
+import MyTicTacToe from './MyTicTacToe'
 
 function App() {
   const tiltBox = useRef(null)
@@ -28,6 +31,9 @@ function App() {
   return (
     <div className="App">
       <div className="red-box" ref={tiltBox}></div>
+      <PokemonContainer />
+      <TicTacToe />
+      <MyTicTacToe />
     </div>
   )
 }

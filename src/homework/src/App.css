@@ -39,7 +39,7 @@
 }
 
 .red-box {
-  width: 600px;
-  height: 600px;
+  width: 200px;
+  height: 200px;
   background: linear-gradient(45deg, blue, red);
 }
